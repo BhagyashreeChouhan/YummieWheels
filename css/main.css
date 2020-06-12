@@ -1,0 +1,230 @@
+
+.style{
+    font-family: latha;
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.4)) , url("../pictures/burrito-chicken-delicious-dinner-461198.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover ;
+    color:white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#search-location{
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    border: black;
+    outline: none;
+    float: left;
+    font-size: 15px;
+}
+.image{
+    width:250;
+     height:250;
+}
+.contents-wrapper{
+    color: white;
+}
+.container h2{
+    text-align: center;
+     font-family: 'Courier New', Courier, monospace
+}
+.container p{
+    text-align: center;
+}
+.footer{
+    height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+     background-color: darkblue; 
+     color: cornsilk;
+}
+.second h2{
+    text-align: center;
+     font-weight: bolder; 
+     font-size: xx-large; 
+     font-style: italic
+}
+.second p{
+    text-align: center;
+    font-size: larger;
+}
+.div1{
+    text-align: center;
+    font-family: cursive;
+    position: absolute;
+    top: 190px;
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    transform:none;
+    opacity: 1;
+    padding-left: 40%;
+    font-size: 40px;
+    font-style: italic;
+}
+.box {
+     width:900px ;
+     float:right;
+     border: 9px solid none;
+    box-sizing: border-box;
+    margin-left: 150px;
+    padding-left: 600px;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.box ul li:hover{
+    background-color: gray;
+}
+.box ul li a:hover{
+     color: white;
+}
+.fd{
+    width: 350px;
+    height: 539px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 55px;
+}
+.fd h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100px;
+}
+.fd h4{
+  text-align:center;
+  color: darkgray;
+  font-weight: normal;
+  font-size: 20px;
+}
+.fd h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 40px auto;
+  word-spacing: 4px;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+}
+.form-box{
+    display: flex;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 30px;
+    margin-left: 175px;
+}
+.menu{
+    padding: 20px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: black;
+    border-width: 5px;
+}
+.footer:hover{
+     background-color: gray;
+     cursor: pointer;
+}
+.store{
+    padding: 20px;
+    border-radius: 10px;
+    border: black;
+    border-width: 5px;
+    margin-left: 100px;
+}
+.catering{
+    padding: 20px;
+    border-radius: 10px;
+    border: black;
+    border-width: 5px;
+    margin-left: 100px;
+}
+.container1{
+    background-color: indianred;
+}
+.first{
+    float: right;
+}
+.second{
+    height: 300px;
+    padding-top: 30px;
+}
+.container2{
+    background-color: rgba(180,180,180,0.5);
+    display: flex;
+    width: 100%;
+}
+.about1{
+    width: 40%;
+    padding-top: 120px;
+    padding-left: 90px;
+    font-weight: bolder; 
+    font-size: xx-large;
+     font-style: italic;
+}
+.about2{
+    padding-top: 60px;
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 2px;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 20px;
+}
+.p{
+    background-color: black;
+    height: 600px;
+    margin: 0px;
+    color: cornsilk;
+    display: flex;
+    font-size: large;
+}
+.p ul{
+    list-style-type: none;
+}
+.p1{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+a :hover{
+    text-decoration: underline;
+}
+.logo{
+    padding-top: 520px;
+    display: flex;
+}
+.i{
+    padding-right: 10px;
+}
+.i1{
+    padding-right: 20px;
+}
+.i2{
+    padding-right: 20px;
+}
+.i3{
+    padding-right: 10px;
+}

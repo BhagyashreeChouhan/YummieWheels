@@ -1,0 +1,145 @@
+body{
+    box-sizing: border-box;
+}
+
+/* Box - 1 */
+
+.box1{
+    display: flex;
+}
+.h1{ 
+    padding: 20px;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 600px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+/* link style start */
+
+a:link, a:visited{
+   text-align: center;
+   display: inline-block;
+   padding: 10px 25px;
+   color: black;
+   text-decoration: none;
+}
+a:hover, a :active{
+    background-color: rgba(240,240,240, 0.5);
+    color: crimson;
+}
+.t2{
+    height: 80px;
+    width: 100px;
+    margin-left: 250px;
+    font-size: x-large;
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.t3{
+   height: 80px;
+   width: 110px;
+   margin-left: 10px;
+   font-size: x-large;
+   padding-left: 20px;
+   opacity: 0.8;
+}
+
+/*  Box - 2 */
+
+.box2{
+    background-color: crimson;
+    height: 300px;
+    opacity: 0.8;
+    margin-top: 0px;
+}
+.s{
+    color: cornsilk;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 10px;
+    font-family: serif;
+    word-spacing: 5px;
+}
+
+/* Box - 3 */
+
+.box3{
+    display: flex;
+}
+.box31{
+    margin-top: 50px;
+    border: 2px solid lightgray;
+    border-style: outset;
+    width: 800px;
+    height: 788px;
+    margin-left: 100px;
+}
+.form{
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-right: 35px;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    padding: 11px;
+   /* box-sizing: border-box; */
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    padding: 11px;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #cb202d;
+    color: white;
+    border: 0.5px solid lightgrey;
+    margin-top: 20px;
+}
+.para{
+    font-size: 15px;
+    opacity: 0.7;
+    font-style: italic;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+.box32{
+    border: 1px solid lightgray;
+    height: 200px;
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.h4{
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    box-sizing: border-box;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+.p{
+    opacity: 0.9;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.p a:link{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: crimson; 
+    margin-left: 70px;
+    font-size: 20px;
+}

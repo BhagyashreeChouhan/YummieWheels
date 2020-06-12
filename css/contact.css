@@ -1,0 +1,230 @@
+body{
+    background-color: lavender;
+}
+.bcolor{
+    background-color: maroon;
+    box-sizing: border-box;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    
+}
+.t1{
+    color: white;
+    padding-left: 100px;
+    padding-top: 21px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 25px;
+    margin: 0px;
+}
+.t2{
+    color: white;
+    padding-top: 20px;
+    padding-left: 800px;
+}
+.t3{
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.img{
+    background-image: url("../pictures/ice-cream-chair-768x1152.jpg");
+    background-repeat: no-repeat;
+    background-size: 1160px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+
+}
+.img1{
+    text-align: center;
+    color: chocolate;
+    font-size: 30px;
+    padding-top: 5px;
+    font-weight: bold;
+    padding-right: 150px;
+    word-spacing: 20px;
+}
+
+/* Form part */
+
+.sec{
+    display: flex;
+    margin-left: 80px;
+}
+
+.sec1{
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 588px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.form{
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+}
+select{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+}
+textarea{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+}
+button{
+    padding: 8px;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+    border-radius: 5px;
+    background-color: #cb202d;
+    color: white;
+    padding: 11px;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.sec21{
+    background-color: white;
+    box-sizing: border-box;
+    height: 175px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.hd{
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif ;
+    
+}
+.sec22{
+    background-color: white;
+    box-sizing: border-box;
+    height: 175px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 4px; 
+}
+.sec23{
+    background-color: white;
+    box-sizing: border-box;
+    height: 175px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 4px;
+}
+.sec3{
+    margin-left: 80px;
+}
+.sec31{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 300px;
+    width: 1160px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.ss{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+.ss1{
+    margin-left: 25px;
+    height: 180px;
+    margin-right: 25px;
+}
+.s{
+    display: flex;
+    margin-left: 35px;
+}
+.ss11{
+    padding: 30px;
+    padding-left: 90px;
+}
+.ss12{
+    padding: 30px;
+    padding-left: 200px;
+}
+.ss13{
+    padding: 30px;
+    padding-left: 200px;
+}
+.count{
+    padding-left: 10px;
+    font-size: large;
+    padding-top: 0px;
+    
+}
+
+
+
+
+
+.bottom{
+    background-color: black;
+    height: 1000px;
+    width: 100%;
+    margin-top: 30px;
+    color: cornsilk;
+    font-size: larger;
+}
+.bdr{
+    display: flex;
+    border-bottom: white solid 1px;
+    margin-left: 200px;
+    margin-right: 200px;
+    opacity: 0.9;
+
+    
+
+}
+.bottom ul{
+    list-style-type: none;
+}
+.b1{
+    padding-top: 100px;
+    padding-left: 55px;
+    word-spacing: 5px;
+}
+a{
+    text-decoration: none;
+    color: cornsilk;
+}
+a :hover{
+    text-decoration: underline;
+}
+.sp{
+    font-weight: bolder;
+    font-size: larger;
+    opacity: 0.9;
+    word-spacing: 5px;
+}
